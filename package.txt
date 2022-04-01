@@ -1,0 +1,20 @@
+{
+
+		"configuration": [
+			{
+				"title": "njs 2 ng",
+				"properties": {
+					"path.from": {
+						"default": "src\\schema",
+						"default": "src\\schema",
+					},
+					"path.to": {
+						"default": "..\\to-project\\src\\app\\commons\\schema",
+						"default": "..\\front\\src\\app\\commons\\schema",
+					}
+				}
+			}
+		]
+	},
+
+}

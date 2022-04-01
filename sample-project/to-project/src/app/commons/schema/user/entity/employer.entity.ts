@@ -1,0 +1,3 @@
+import { Image } from '../../common/entity/image.entity';
+
+export interface Employer  {    id: number;    userId: string;     companyName: string;     countryId: number;     provinceId: number;     cityId: number;        phoneNumber: string;         websiteAddress: string;      explain: string;      logoImageId: number;     wallpaperImageId: number;     companyPersonnelId: number;      companyActivityId: number;             }

@@ -1,0 +1,2 @@
+
+export interface EducationBackground  {  id: number;  userId: string;     fieldOfStudy: string;    instituteName: string;    educationGradeId: string;    dateStart: Date;     dateEnd: Date;   explain: string;     priority: number;   }

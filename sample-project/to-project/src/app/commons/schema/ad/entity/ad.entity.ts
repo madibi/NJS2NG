@@ -1,0 +1,2 @@
+
+export interface Ad  {  id: string;  userId: string;  jobTitle: string;  adConditionId: number;  jobCategoryId: number;  contractTypeId: number;  countryId: number;  provinceId: number;  cityId: number;  experienceCategoryId: number;  degreeCategoryId: number;  genderId: number;  militaryConditionCategoryId: number;  minimumSalaryId: number;  explain: string;  isApproved: boolean;  date: Date;}

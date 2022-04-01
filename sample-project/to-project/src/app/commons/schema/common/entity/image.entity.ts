@@ -1,0 +1,2 @@
+
+export interface Image  {  id: string;  path: string;  width: number; // px  height: number; // px  averageColor: string; // hex with #  size: number; // byte  extension?: string;  mimeType?: string;  }
