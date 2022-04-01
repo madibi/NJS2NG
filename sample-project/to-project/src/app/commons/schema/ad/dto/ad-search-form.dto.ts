@@ -1,0 +1,2 @@
+
+export interface AdSearchForm {  provinceId: number;  cityId: number;  jobCategoryId: number;  justMyRequests: boolean;  justFavAds: boolean;  jobContractTypeIds: number[];  requiredGenderIds: number[];  }

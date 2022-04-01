@@ -1,0 +1,2 @@
+
+export interface JobBackground  {  id: number;  userId: string;     title: string;     companyName: string;     dateStart: Date;     dateEnd: Date;     explain: string;     priority: number;   }

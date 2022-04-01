@@ -1,0 +1,3 @@
+import { CompanyActivity } from '@commons/schema/enum/entity/company-activity.entity';
+
+export interface Company  {  id: string;  userId: string;     name: string;  phone?: string;  emailAddress: string;  websiteAddress: string;  address?: string;  lat?: number;  lon?: number;  countryId?: number;  provinceId?: number;  cityId?: number;  companyPersonnelId?: number;     explain?: string;  isCompanyApproved?: boolean;  companyActivities?: CompanyActivity[];}
